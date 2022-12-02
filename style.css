@@ -187,50 +187,60 @@ a:hover{
 
     color: #000000;
 }
-.servbutLeft{
+#servbutLeft{
     position:absolute;
     top: 13rem;
     left: 15rem;
     width: 5rem;
     height: 2.5rem;
     font-size: x-large;
-    border-radius: 50%;
+    /* border-radius: 20%; */
     background-color:transparent;
+    border: none;
 }
-.servbutLeft p{
-    color:black;
-    font-size: large;
+.servBut:hover{
+    cursor: pointer;
 }
 
-.servbutright{
+#servbutright{
     position:absolute;
     top: 13rem;
     left: 75rem;
     width: 5rem;
     height: 2.5rem;
     font-size: x-large;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-color:transparent;
+    border: none;
 }
-#serv{
-    width: 50%;
+.serv{
+    /* width: 50%; */
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 2.5%;
+    display: none;
+    transition: all 800ms ease-in-out;
+
 }
-#serv h1{
+.serv h1{
     padding-left: 1rem;
 }
-
-.serv1{
+.active{
+    width: 50%;
     display: block;
 }
 
-.serv2{
-    display: none;
+#serv1{
+    /* width: 0; */
+
+
 }
-.serv3{
-    display: none;
+
+#serv2{
+    /* width: 0; */
+}
+#serv3{
+    /* width: 0; */
 }
 
 .line{
