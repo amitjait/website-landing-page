@@ -6,6 +6,10 @@ a{
     color: white;
     text-decoration: none;
 }
+a:hover{
+    cursor: pointer;
+    color: blue;
+}
 .header{
     position: fixed;
     z-index: 1000;
@@ -217,6 +221,7 @@ a{
 #serv h1{
     padding-left: 1rem;
 }
+
 .serv1{
     display: block;
 }

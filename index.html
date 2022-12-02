@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -14,10 +15,10 @@
         </div>
         <nav class="nav">
             <ul class="navBar">
-                <li class="ul1"><a href="#home">Home</a></li>
-                <li class="ul1"><a href="#aboutUS">About Us</a></li>
-                <li class="ul1"><a href="#service">More</a></li>
-                <li class="ul1"><a href="#contactUs">Contact Us</a></li>
+                <li class="ul1"><a onclick="jumpTo('home')">Home</a></li>
+                <li class="ul1"><a onclick="jumpTo('about-US')">About Us</a></li>
+                <li class="ul1"><a onclick="jumpTo('service')">More</a></li>
+                <li class="ul1"><a onclick="jumpTo('contactUs')">Contact Us</a></li>
             </ul>
         </nav>
     </div>
@@ -28,7 +29,7 @@
         </div>
     </div>
 
-    <div class="about" id="aboutUS">
+    <div class="about" id="about-US">
 
     </div>
     <div class="aboutImg" >
@@ -50,7 +51,7 @@
 
     <div class="subServices">
         <button class="servbutLeft">&lt;</button>
-        <div id="serv" class="serv1">
+        <div id="serv" class="serv1 active">
             <h1>Service 1</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
             </p>
