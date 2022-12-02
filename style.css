@@ -24,8 +24,12 @@ a:hover{
     border-bottom: 1px solid white;
 }
 .BusTitle{
+    margin-top: 1rem;
     margin-left: 2rem;
     width: 50%;
+}
+.BusTitle img{
+    width: 10rem;
 }
 .navBar{
     list-style: none;
@@ -315,5 +319,14 @@ a:hover{
     left: 146px;
     top: 3515px;
 
+    font-weight: 600;
+
     margin-left: 5rem;
+}
+
+#btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: skyblue;
+    font-weight: 800;
 }
